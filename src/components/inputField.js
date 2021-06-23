@@ -22,7 +22,7 @@ const InputField = () => {
   }, [title]);
 
   return (
-    <input value={title} type="email" class="form-control" onChange={event => setTitle(event.target.value)}></input>
+    <input value={title} type="text" class="form-control" onChange={event => setTitle(event.target.value)}></input>
   );
 }
 export default InputField;

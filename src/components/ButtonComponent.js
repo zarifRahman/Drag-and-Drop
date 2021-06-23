@@ -5,9 +5,9 @@ const ButtonComponent = () => {
   return (
     <button
       style={{
-        backgroundColor: '#007bff', marginTop: '10px',
+        backgroundColor: '#007bff', marginTop: '2px',
         borderStyle: 'solid', borderWidth: '1px',
-        color: '#fff'
+        color: '#fff', width: '100%'
       }}
       // value={inputValue}
       className="navbar-toggler"
