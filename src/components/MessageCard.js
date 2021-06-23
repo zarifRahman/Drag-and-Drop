@@ -5,17 +5,17 @@ import chatIcon from "../asset/chatting.png"
 
 const MessageCard = () => {
   return (
-    <div class="card" style={{ padding: '10px' }}>
-      <div style={{ display: 'flex' }}>
+    <div class="card" style={{ paddingTop: '30px', paddingLeft: '20px', paddingRight: '20px', marginTop: '5px' }}>
+      {/* <div style={{ display: 'flex' }}>
         <div style={{ marginRight: '20px' }}>
           <img src={messengerIcon} alt="Crossroad" width={20} />
         </div>
         <p style={{ fontWeight: 'bold', fontSize: '16px' }}>Send Message</p>
-      </div>
+      </div> */}
       <div class="card" style={{ padding: '10px' }}>
         <img src={chatIcon} alt="Crossroad" width={'100%'} />
       </div>
-      <button
+      {/* <button
         style={{
           backgroundColor: '#007bff', marginTop: '10px',
           borderStyle: 'solid', borderWidth: '1px'
@@ -30,7 +30,7 @@ const MessageCard = () => {
         onClick={() => alert('clicked')}
       >
         <span style={{ fontSize: '16px' }}>+ Add Content</span>
-      </button>
+      </button> */}
     </div>
   )
 }

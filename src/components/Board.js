@@ -5,8 +5,11 @@ const Board = (props) => {
     e.preventDefault();
     const card_id = e.dataTransfer.getData('card_id');
     const card = document.getElementById(card_id);
+    const boardContent = document.getElementById("board-2");
+
     card.style.display = 'block';
     e.target.appendChild(card);
+    localStorage.setItem('prev_content', boardContent.innerHTML);
   }
 
   const dragOver = e => {
