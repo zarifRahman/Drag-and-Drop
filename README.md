@@ -1,8 +1,6 @@
 # Drag and Drop with React
 
 ### Things TODO
-*1. Edit the button and drag it on the right side*
-*2. Edit the input field and drag it on the right side*
 **3. Delete the prev_content from localStorage after each re-load**
 ## Available Scripts
 
