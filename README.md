@@ -1,7 +1,9 @@
 # Drag and Drop with React
 
-### Things TODO
-**3. Delete the prev_content from localStorage after each re-load**
+### Do
+**1. Delete the prev_content from localStorage after each reload and then reload the page again**
+
+
 ## Available Scripts
 
 In the project directory, you can run:
